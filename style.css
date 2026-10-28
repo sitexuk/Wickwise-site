@@ -57,6 +57,7 @@ img { max-width: 100%; display: block; }
 .screen { background: var(--bg); border-radius: 28px; padding: 18px 14px; }
 .card { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 16px; }
 .card + .card { margin-top: 10px; }
+.grid3 > .card, .grid2 > .card { margin-top: 0; } /* side by side: no stacking gap */
 .verdict { display: flex; justify-content: space-between; align-items: baseline; }
 .verdict b { color: var(--bear); font-size: 34px; letter-spacing: -1px; }
 .verdict .conf { text-align: right; font-weight: 800; font-size: 24px; line-height: 1; }
